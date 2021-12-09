@@ -1,0 +1,13 @@
+2021-12-09 06:55:38 - INFO - "GET / HTTP/1.1" 200 1219
+2021-12-09 06:55:38 - INFO - "GET /static/style.css HTTP/1.1" 200 648
+2021-12-09 21:09:15 - INFO - "GET / HTTP/1.1" 200 1219
+2021-12-09 21:09:15 - INFO - "GET /static/style.css HTTP/1.1" 304 0
+2021-12-09 21:09:15 - INFO - "GET /vacaGo HTTP/1.1" 200 746
+2021-12-09 21:10:41 - ERROR - AttributeError in 0 on line 0
+2021-12-09 21:10:41 - ERROR - "GET /vacaGo/1 HTTP/1.1" 500 1050394
+2021-12-09 21:52:57 - ERROR - AttributeError in 0 on line 0
+2021-12-09 21:52:57 - ERROR - "GET /vacaGo/2 HTTP/1.1" 500 1050106
+2021-12-09 21:53:08 - ERROR - AttributeError in 0 on line 0
+2021-12-09 21:53:08 - ERROR - "GET /vacaGo/3 HTTP/1.1" 500 1050236
+2021-12-09 22:01:25 - ERROR - AttributeError in 0 on line 0
+2021-12-09 22:01:25 - ERROR - "GET /vacaGo/3 HTTP/1.1" 500 1050315
