@@ -11,3 +11,31 @@
 2021-12-09 21:53:08 - ERROR - "GET /vacaGo/3 HTTP/1.1" 500 1050236
 2021-12-09 22:01:25 - ERROR - AttributeError in 0 on line 0
 2021-12-09 22:01:25 - ERROR - "GET /vacaGo/3 HTTP/1.1" 500 1050315
+2021-12-10 02:08:58 - INFO - "GET /vacaGo HTTP/1.1" 200 746
+2021-12-10 02:09:58 - ERROR - AttributeError in 0 on line 0
+2021-12-10 02:09:58 - ERROR - "GET /vacaGo/1 HTTP/1.1" 500 1050394
+2021-12-10 02:10:29 - ERROR - AttributeError in 0 on line 0
+2021-12-10 02:10:29 - ERROR - "GET /vacaGo/1 HTTP/1.1" 500 1050446
+2021-12-10 02:45:44 - ERROR - AttributeError in 0 on line 0
+2021-12-10 02:45:44 - ERROR - "GET /vacaGo/1 HTTP/1.1" 500 1050315
+2021-12-10 02:46:37 - ERROR - AttributeError in 0 on line 0
+2021-12-10 02:46:37 - ERROR - "GET /vacaGo/1 HTTP/1.1" 500 1050445
+2021-12-10 02:47:07 - ERROR - AttributeError in 0 on line 0
+2021-12-10 02:47:07 - ERROR - "GET /vacaGo/1 HTTP/1.1" 500 1050445
+2021-12-10 02:49:48 - ERROR - AttributeError in 0 on line 0
+2021-12-10 02:49:48 - ERROR - "GET /vacaGo/1 HTTP/1.1" 500 1050446
+2021-12-10 02:57:01 - ERROR - AttributeError in 0 on line 0
+2021-12-10 02:57:01 - ERROR - "GET /vacaGo/1 HTTP/1.1" 500 1050315
+2021-12-10 02:57:51 - ERROR - AttributeError in 0 on line 0
+2021-12-10 02:57:51 - ERROR - "GET /vacaGo/1 HTTP/1.1" 500 1050394
+2021-12-10 02:58:31 - ERROR - AttributeError in 0 on line 0
+2021-12-10 02:58:31 - ERROR - "GET /vacaGo/1 HTTP/1.1" 500 1042105
+2021-12-10 02:59:43 - ERROR - QueryException in 0 on line 0
+2021-12-10 02:59:43 - ERROR - "GET /vacaGo/1 HTTP/1.1" 500 1001878
+2021-12-10 03:00:11 - ERROR - AttributeError in 0 on line 0
+2021-12-10 03:00:11 - ERROR - "GET /vacaGo/1 HTTP/1.1" 500 1050443
+2021-12-10 03:00:24 - ERROR - AttributeError in 0 on line 0
+2021-12-10 03:00:24 - ERROR - "GET /vacaGo/1 HTTP/1.1" 500 1050445
+2021-12-10 03:00:39 - INFO - "GET /vacaGo/1 HTTP/1.1" 200 194
+2021-12-10 03:00:39 - INFO - "GET /vacaGo/2 HTTP/1.1" 200 255
+2021-12-10 03:00:39 - INFO - "GET /vacaGo/3 HTTP/1.1" 200 291
