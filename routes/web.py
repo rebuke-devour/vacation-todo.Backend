@@ -10,5 +10,5 @@ ROUTES = [
         Post("/", "VacaGoController@create").name("create"),
         Put("/@id", "VacaGoController@update").name("update"),
         Delete("/@id", "VacaGoController@destroy").name("destroy")
-    ],prefix="/vacaGo",name= "VacaGo")
+    ],prefix="/vacago",name= "VacaGo")
 ]
