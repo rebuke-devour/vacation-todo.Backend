@@ -36,7 +36,7 @@ class VacaGoController(Controller):
 
 
     def update(self):
-        id = self.request.params("id")
+        id = self.request.param("id")
         city = self.request.input("city")
         activity = self.request.input("activity")
         details = self.request.input("details")
@@ -45,7 +45,7 @@ class VacaGoController(Controller):
         return VacaGo.where("id", id).get()
 
     def destroy(self):
-        id = self.request.params("id")
+        id = self.request.param("id")
         vacaGo = VacaGo.where("id", id).get()
         VacaGo.where("id", id).delete()
         return vacaGo
