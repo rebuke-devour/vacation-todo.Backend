@@ -1,19 +1,22 @@
 ## Vacation  Planner
 
 # Project Summary
-- A "to-do list" style vacation planner that checks for the weather at your chosen destination. 
-
+- A "to-do list" style vacation planner
 
 
 # User Story
-
+- I can create a new vacation plan and see that it loads on the page. 
+- I can see a list of all my vacations when I login.
+- click on one of my vacations and have it take me to the linked website.
+- delete a vacation. 
+- Able to update a vacation. 
 
 ## User Persona(s)
  This approach follows the "Four Perspectives" method by Lene Nielsen outlined in interaction-design.org.
 
  This is designed toward the the "Goal-Oriented" Persona, and is defined as follows: "...by its personal, practical, and company-oriented goals as well as by the relationship with the product to be designed, the emotions of the persona when using the product, and the goals of the persona in using the product (hence Goal-Directed)." 
 
-Thus, the desired outcome for this application is to provide the user a solution to store NFTs, and will provide simple intiutive UI with the functions and features outlined below...
+Thus, the desired outcome for this application is to provide the user a way to list their vacation plans, and will provide simple intiutive UI with the functions and features outlined below...
 
 ### Scope of Functionalities
 - Basic CRUD Functionality; User should be able to Create, Read, Update and Delete their stored information.
@@ -95,8 +98,18 @@ whitenoise==4.1.4
 
 ## Models
 
+vaca model:
 
+City: String
+Activity: String
+Details: String
 
+# Challenges: 
+Had some difficulty with my edit and delete routes but this was fixed with some simple spelling edits.
+
+The most difficulty was with the original plan of implementing the openweather API to check for weather at a given location, this will be added as a feature later on.
+
+Also as youll see a sandwich menu was attempted but linking them to pages became too much of a bear so a modal was used instead.
 
 
 
@@ -104,10 +117,10 @@ whitenoise==4.1.4
 
 | url | method | action |
 |-----|--------|--------|
-|/todo | GET | get all todos (index)|
-|/todo/:id | GET | get individual todo(show)| 
-|/todo/:id/edit | GET | Show (edit) form |
-|/todo/new | GET | Show (new) Todo input form|
-|/todo | POST | Input Todo, redirect home|
-|/todo/:id | PUT | Update NFT, redirect home |
-|/todo/:id | DELETE |Delete NFT,redirect home|
+|/ | GET | get all vacations (index)|
+|/vacago/:id | GET | get individual vacations(show)| 
+|/vacago/:id/edit | GET | Show (edit) form |
+|/vacago/new | GET | Show (new) Vacation input form|
+|/vacago | POST | Input Vacation, redirect home|
+|/vacago/:id | PUT | Update Vacation, redirect home |
+|/vacago/:id | DELETE |Delete Vacation,redirect home|
